@@ -1,4 +1,5 @@
 This Multi-Value Dictionary app is a command line applicaion that stores a multi-value dictionary in memory. All keys and values are strings.
+Keys and values are case sensitive, but commands are not.
 
 It supports the following commands: 
   KEYS                       Returns all the keys in the dictionary.
