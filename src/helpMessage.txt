@@ -1,0 +1,13 @@
+This Multi-Value Dictionary app is a command line applicaion that stores a multi-value dictionary in memory. All keys and values are strings.
+
+It supports the following commands: 
+  KEYS                       Returns all the keys in the dictionary.
+  MEMBERS [key]              Returns the collection of strings for the given key.
+  ADD [key] [value]          Add a member to a collection for a given key.
+  REMOVE [key] [value]       Removes a value from a key. If the last value is removed from the key, the key is removed from the dictionary.
+  REMOVEALL [key]            Removes a key and all its values from the dictionary
+  CLEAR                      Removes all keys and all values from the dictionary.
+  KEYEXISTS [key]            Returns whether a key exists or not.
+  VALUEEXISTS [key] [value]  Returns whether a value exists within a key. Returns false if the key does not exist.
+  ALLMEMBERS                 Returns all the values in the dictionary.'
+  ITEMS                      Returns all keys in the dictionary and all of their values.
